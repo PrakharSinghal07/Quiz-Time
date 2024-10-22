@@ -1,61 +1,61 @@
 const quizQuestions = [
     {
-        question: "What is the correct syntax for referring to an external script called 'app.js'?",
+        question: "Which is the correct way to include 'app.js' as a script?",
         options: [
-            "<script name='app.js'></script>",
-            "<script href='app.js'></script>",
-            "<script src='app.js'></script>",
-            "<script link='app.js'></script>"
+            "<script src='app.js'>",
+            "<script link='app.js'>",
+            "<script href='app.js'>",
+            "<script name='app.js'>"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "How do you display 'Hello' in an alert?",
+        options: [
+            "alert('Hello')",
+            "msg('Hello')",
+            "alertBox('Hello')",
+            "message('Hello')"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "How do you declare a function in JavaScript?",
+        options: [
+            "function myFunc()",
+            "myFunc = function()",
+            "function:myFunc()",
+            "create myFunc()"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "How do you call `myFunc()`?",
+        options: [
+            "call myFunc()",
+            "run myFunc()",
+            "myFunc()",
+            "invoke myFunc()"
         ],
         correctAnswer: 2
     },
     {
-        question: "How do you write 'Hello World' in an alert box?",
+        question: "Which operator assigns a value?",
         options: [
-            "msg('Hello World')",
-            "alertBox('Hello World')",
-            "alert('Hello World')",
-            "msgBox('Hello World')"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "How do you create a function in JavaScript?",
-        options: [
-            "function:myFunction()",
-            "function = myFunction()",
-            "function myFunction()",
-            "create myFunction()"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "How do you call a function named `myFunction`?",
-        options: [
-            "call myFunction()",
-            "call function myFunction()",
-            "myFunction()",
-            "run myFunction()"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Which operator is used to assign a value to a variable?",
-        options: [
-            "*",
+            "+",
             "=",
             "-",
-            "x"
+            "*"
         ],
         correctAnswer: 1
     },
     {
-        question: "How to write an IF statement in JavaScript?",
+        question: "How do you write an IF statement?",
         options: [
-            "if (i == 5)",
-            "if i = 5 then",
-            "if i == 5 then",
-            "if i = 5"
+            "if (x == 5)",
+            "if x = 5 then",
+            "if x == 5 then",
+            "if (x = 5)"
         ],
         correctAnswer: 0
     },
@@ -63,84 +63,84 @@ const quizQuestions = [
         question: "How does a WHILE loop start?",
         options: [
             "while (i <= 10)",
+            "while (i < 10; i++)",
             "while i = 1 to 10",
-            "while (i <= 10; i++)",
-            "while (i < 10 i++)"
+            "while (i++ < 10)"
         ],
         correctAnswer: 0
     },
     {
-        question: "How can you add a comment in JavaScript?",
+        question: "How do you write a comment in JS?",
         options: [
-            "<!--This is a comment-->",
-            "//This is a comment",
-            "/*This is a comment*/",
-            "#This is a comment"
+            "// comment",
+            "<!-- comment -->",
+            "# comment",
+            "/* comment */"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "What is the correct array syntax?",
+        options: [
+            "['a', 'b', 'c']",
+            "var array = 'a', 'b'",
+            "{'a', 'b', 'c'}",
+            "(a, b, c)"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "How do you get an array's length?",
+        options: [
+            "array.len",
+            "array.length",
+            "array.size()",
+            "array.len()"
         ],
         correctAnswer: 1
     },
     {
-        question: "What is the correct way to write a JavaScript array?",
+        question: "Which event fires on a click?",
         options: [
-            "var colors = 'red', 'green', 'blue'",
-            "var colors = (1:'red', 2:'green', 3:'blue')",
-            "var colors = ['red', 'green', 'blue']",
-            "var colors = {'red', 'green', 'blue'}"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "How do you find the length of an array in JavaScript?",
-        options: [
-            "array.length()",
-            "array.size",
-            "array.length",
-            "array.len"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Which event occurs when the user clicks on an HTML element?",
-        options: [
+            "onclick",
             "onmouseclick",
             "onmouseover",
-            "onclick",
             "onchange"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "How do you round a number to the nearest integer in JavaScript?",
-        options: [
-            "Math.ceil()",
-            "Math.round()",
-            "Math.floor()",
-            "Math.abs()"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "What does the `typeof` operator do in JavaScript?",
-        options: [
-            "Checks the data type of a variable",
-            "Returns the length of a string",
-            "Converts a value to a number",
-            "Removes a property from an object"
         ],
         correctAnswer: 0
     },
     {
-        question: "Which method can be used to join two arrays in JavaScript?",
+        question: "How to round a number in JS?",
         options: [
-            "merge()",
-            "concat()",
-            "combine()",
-            "link()"
+            "Math.ceil()",
+            "Math.floor()",
+            "Math.round()",
+            "Math.abs()"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What will the following code output? `console.log(typeof null);`",
+        question: "What does `typeof` do?",
+        options: [
+            "Returns type",
+            "Returns length",
+            "Converts to number",
+            "Removes property"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "How do you join two arrays?",
+        options: [
+            "concat()",
+            "merge()",
+            "combine()",
+            "add()"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "What does `typeof null` return?",
         options: [
             "\"object\"",
             "\"null\"",
@@ -150,7 +150,7 @@ const quizQuestions = [
         correctAnswer: 0
     },
     {
-        question: "Which method is used to remove the last element from an array?",
+        question: "How do you remove the last element of an array?",
         options: [
             "pop()",
             "shift()",
@@ -160,7 +160,7 @@ const quizQuestions = [
         correctAnswer: 0
     },
     {
-        question: "What will this output? `console.log(2 + \"2\");`",
+        question: "What does `2 + '2'` return?",
         options: [
             "\"22\"",
             "4",
@@ -170,17 +170,17 @@ const quizQuestions = [
         correctAnswer: 0
     },
     {
-        question: "What does the `map()` function do?",
+        question: "What does `map()` do?",
         options: [
-            "It creates a new array by modifying each element of an array.",
-            "It removes elements from an array.",
-            "It sorts the elements of an array.",
-            "It filters elements of an array based on a condition."
+            "Modifies array",
+            "Removes elements",
+            "Sorts array",
+            "Filters array"
         ],
         correctAnswer: 0
     },
     {
-        question: "How do you declare a constant variable in JavaScript?",
+        question: "How do you declare a constant?",
         options: [
             "let",
             "var",
@@ -190,17 +190,17 @@ const quizQuestions = [
         correctAnswer: 2
     },
     {
-        question: "What will the following code output? `console.log(0.1 + 0.2 === 0.3);`",
+        question: "What does `0.1 + 0.2 === 0.3` return?",
         options: [
             "true",
             "false",
-            "undefined",
-            "NaN"
+            "NaN",
+            "undefined"
         ],
         correctAnswer: 1
     },
     {
-        question: "What is the result of the following expression? `[1, 2, 3] == [1, 2, 3]`",
+        question: "What is `[1, 2, 3] == [1, 2, 3]`?",
         options: [
             "true",
             "false",
@@ -210,57 +210,57 @@ const quizQuestions = [
         correctAnswer: 1
     },
     {
-        question: "Which keyword is used to handle exceptions in JavaScript?",
+        question: "Which keyword handles exceptions?",
         options: [
             "catch",
-            "try",
             "throw",
+            "try",
             "error"
         ],
         correctAnswer: 0
     },
     {
-        question: "What is the purpose of `JSON.stringify()` in JavaScript?",
+        question: "What does `JSON.stringify()` do?",
         options: [
-            "Convert a JSON object into a string",
-            "Parse a string into JSON",
-            "Check if a value is a JSON object",
-            "Convert a string into an object"
+            "Converts to string",
+            "Parses string",
+            "Converts to JSON",
+            "Removes JSON"
         ],
         correctAnswer: 0
     },
     {
-        question: "What will `console.log([...'Hello'])` output?",
+        question: "What does `[...'Hello']` output?",
         options: [
             "['Hello']",
             "['H', 'e', 'l', 'l', 'o']",
-            "['H', 'ello']",
-            "['H', 'Hell', 'o']"
+            "['H', 'Hell', 'o']",
+            "['H', 'ello']"
         ],
         correctAnswer: 1
     },
     {
-        question: "What does the `push()` method do in JavaScript?",
+        question: "What does `push()` do?",
         options: [
-            "Removes the last element from an array",
-            "Adds one or more elements to the end of an array",
-            "Adds one or more elements to the beginning of an array",
-            "Removes the first element of an array"
+            "Adds at end",
+            "Removes last",
+            "Adds at start",
+            "Removes first"
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
-        question: "What does `===` mean in JavaScript?",
+        question: "What does `===` check?",
         options: [
-            "Assigns a value",
-            "Compares only values",
-            "Compares both value and type",
-            "Compares both value and length"
+            "Assigns value",
+            "Compares value",
+            "Compares value and type",
+            "Compares length"
         ],
         correctAnswer: 2
     },
     {
-        question: "What is the output of the following code? `console.log(3 > 2 > 1);`",
+        question: "What does `3 > 2 > 1` return?",
         options: [
             "true",
             "false",
@@ -270,7 +270,7 @@ const quizQuestions = [
         correctAnswer: 1
     },
     {
-        question: "How can you make an object immutable in JavaScript?",
+        question: "How do you make an object immutable?",
         options: [
             "Object.preventExtensions()",
             "Object.freeze()",
@@ -280,26 +280,15 @@ const quizQuestions = [
         correctAnswer: 1
     },
     {
-        question: "What is the difference between `let` and `var` in JavaScript?",
+        question: "What's the main difference between `let` and `var`?",
         options: [
-            "`let` has block scope, `var` has function scope",
-            "`var` has block scope, `let` has function scope",
-            "`var` is hoisted, `let` is not",
-            "There is no difference"
+            "`let` has block scope",
+            "`var` has block scope",
+            "`var` isn't hoisted",
+            "No difference"
         ],
         correctAnswer: 0
-    },
-    {
-        question: "Which of the following is a valid way to create an object in JavaScript?",
-        options: [
-            "let obj = {}",
-            "let obj = Object.create()",
-            "let obj = new Object()",
-            "Both a and c"
-        ],
-        correctAnswer: 3
     }
 ];
-
 
 export default quizQuestions;
