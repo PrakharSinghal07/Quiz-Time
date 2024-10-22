@@ -10,6 +10,16 @@ const quizQuestions = [
         correctAnswer: 0
     },
     {
+        question: "Which JavaScript method converts an array to a string?",
+        options: [
+            "concat()",
+            "join()",
+            "pop()",
+            "push()",
+        ],
+        correctAnswer: 1
+    },
+    {
         question: "How do you display 'Hello' in an alert?",
         options: [
             "alert('Hello')",
