@@ -404,6 +404,9 @@ body {
     html {
         font-size: 0.8rem;
     }
+    .question {
+        width: 90%;
+    }
 
     .question-section2>p {
         font-size: 13px;
