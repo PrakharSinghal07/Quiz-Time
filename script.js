@@ -117,6 +117,7 @@ const handleAns = (opt) => {
 
 // Start the quiz and handle timer, reset
 const startQuiz = () => {
+
     isquestionCompleted = false;  // Reset question completed status
     resetQuestion();
     optionStatus.forEach((option) => {
@@ -210,7 +211,11 @@ quizStartBtn.addEventListener('click', () => {
     }
     else {
         questionPage.style.display = 'flex';
+        console.log(isVolumeUp);
         if (isVolumeUp) {
+            backgroundMusic.volume = 0.1;
+            backgroundMusic.loop = true;
+            backgroundMusic.currentTime = 0;
             backgroundMusic.play();
         }
         startQuiz();
@@ -250,6 +255,7 @@ retry.addEventListener('click', () => {
         highestScore.style.visibility = 'visible';
         highestScore.innerText = highScore <= 9 ? `High Score : 0${highScore}/${totalQuestions}` : `High Score : ${highScore}/${totalQuestions}`;
     }
+
 })
 
 // Event listener for volume toggle
