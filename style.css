@@ -199,7 +199,7 @@ body {
     background-color: #F5F5F57A;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-left: 20px;
     font-weight: 600;
