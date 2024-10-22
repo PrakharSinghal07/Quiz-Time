@@ -417,11 +417,13 @@ body {
 
     .ques-number {
         width: 75px;
+        height: 40px;
+
     }
 
     .timer {
         width: 75px;
-
+        height: 40px;
     }
 
     .volume {
