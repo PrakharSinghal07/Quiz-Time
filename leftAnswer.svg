@@ -1,0 +1,5 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="14.5" cy="14.5" r="14.5" fill="#f4d03f"/>
+  <path d="M14.5 7V17" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="14.5" cy="22" r="2" fill="white"/> <!-- Adjusted y-coordinate for the dot -->
+</svg>
